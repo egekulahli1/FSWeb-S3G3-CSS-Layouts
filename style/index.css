@@ -1,1 +1,165 @@
 /* CSS stillerinizi buraya girin */
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.header-container {
+    background-color: lightgray;
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.header-container h1{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+.div-button {
+   margin-left: 100px;
+   display: flex;
+   flex-direction: row;
+   height: 50px;
+   padding-bottom: 20px;
+
+}
+
+.header-container button{
+    
+    cursor: pointer;
+    width: 140px;    
+    border-color: black;
+}
+
+.section-top {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: end;
+    align-items:end;
+}
+
+.section-top-image{
+    flex-shrink: 0;
+    width: 50%;
+    overflow: hidden;
+    padding: 20px;
+}
+.section-top-image img {
+    width: 100%;
+    
+    border-radius:10px 10px 10px 10px;
+}
+
+.section-top-article {
+    margin-left: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+    margin-top: 200px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    
+}
+.section-top-article h2 {
+    
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.section-top-article p{
+    width:500px;
+    font-size: 20px;
+    line-height: 2;
+
+}
+
+.section-top-article button{
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+}
+
+
+  
+  .image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+  }
+  
+  .image-wrapper {
+    width: 25%;
+    padding: 60px;
+    margin
+  }
+  
+  .image-wrapper img {
+    
+    flex-shrink: 0;
+    width: 100%;
+    
+    
+
+  }
+  
+  .image-wrapper p {
+    text-align: center;
+    font-size: 30;
+    
+  }
+
+.footer {
+    
+}
+.footer-div {
+    width: 100%;
+    bottom : 0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.footer-p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.footer-button button {
+    
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+}
